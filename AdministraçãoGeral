@@ -1,0 +1,103 @@
+Definindo Conjuntos:
+
+01- {Veículo Sport}
+02- {Acessórios}
+03- {Casado}
+04- {Têm 2 filhos}
+05- {Veículo Sport, Acessórios}
+06- {Veículo Sport, Casado}
+07- {Veículo Sport, 2 filhos}
+08- {Acessórios, Casado}
+09- {Acessórios, 2 Filhos}
+10- {Casado, 2 Filhos}
+11- {Acessórios, Casado, 2 filhos}
+12- {Veículo Sport, Acessórios, casado}
+13- {Veículo Sport, Acessórios, 2 filhos}
+14- {Veículo Sport, casado, 2 filhos}
+15- {Veículo Sport, Acessório, casado, com 2 filhos}
+
+Suporte:
+01- 24/30 = 0,8  -> 80% (+ de 50%)
+02- 17/30 = 0,56 -> 56% (+ de 50%)
+03- 21/30 = 0,7  -> 70% (+ de 50%)
+04- 13/30 = 0,43 -> 43% (- de 50%)
+05- 12/30 = 0,4  -> 40% (- de 50%)
+06- 17/30 = 0,56 -> 56% (+ de 50%)
+07- 12/30 = 0,4  -> 40% (- de 50%)
+08- 12/30 = 0,4  -> 40% (- de 50%)
+09- 09/30 = 0,3  -> 30% (- de 50%)
+10- 10/30 = 0,33 -> 33% (- de 50%)
+11- 07/30 = 0,23 -> 23% (- de 50%)
+12- 08/30 = 0,25 -> 25% (- de 50%)
+13- 07/30 = 0,23 -> 23% (- de 50%)
+14- 08/30 = 0,25 -> 25% (- de 50%)
+15- 06/30 = 0,2  -> 20% (- de 50%)
+
+Regras:
+01 - Veículo -> Acessório 					-> 12/24 = 0,50 -> 50%
+02 - Veículo -> Casado    					-> 17/24 = 0,70 -> 70%
+03 - Veículo -> Filhos 						-> 12/24 = 0,50 -> 50% 
+04 - Veículo -> Acessório, Casado 			-> 08/24 = 0,33 -> 33%
+05 - Veículo -> Acessório, Filhos 			-> 07/24 = 0,29 -> 29%
+06 - Veículo -> Casado, Filhos 				-> 08/24 = 0,33 -> 33%
+07 - Veículo -> Acessório, Casado, Filhos 	-> 06/24 = 0,25 -> 25%
+08 - Acessório -> Veículo					-> 12/17 = 0,70 -> 70%
+09 - Acessório -> Casado 					-> 12/17 = 0,70 -> 70%
+10 - Acessório -> Filhos 					-> 09/17 = 0,52 -> 52%
+11 - Acessório -> Veículo, Casado 			-> 08/17 = 0,47 -> 47%
+12 - Acessório -> Veículo, Filhos 			-> 07/17 = 0,41 -> 41%
+13 - Acessório -> Casado, Filhos 			-> 07/17 = 0,41 -> 41%
+14 - Acessório -> Veículo, Casado, Filhos 	-> 06/17 = 0,35 -> 35%
+15 - Casado -> Veículo 						-> 17/21 = 0,80 -> 80%
+16 - Casado -> Acessório 					-> 12/21 = 0,57 -> 57%
+17 - Casado -> Filhos 						-> 10/21 = 0,47 -> 47%
+18 - Casado -> Veículo, Acessório 			-> 08/21 = 0,38 -> 38%
+19 - Casado -> Veículo, Filhos 				-> 08/21 = 0,38 -> 38%
+20 - Casado -> Acessório, Filhos 			-> 07/21 = 0,33 -> 33%
+21 - Casado -> Veículo, Acessório, Filhos   -> 06/21 = 0,28 -> 28%
+22 - Filhos -> Veículo 						-> 12/13 = 0,92 -> 92%
+23 - Filhos -> Acessório 					-> 09/13 = 0,69 -> 69%
+24 - Filhos -> Casado 	-					-> 10/13 = 0,76 -> 76%
+25 - Filhos -> Veículo, Acessório  			-> 07/13 = 0,53 -> 53%
+26 - Filhos -> Veículo, Casado 				-> 08/13 = 0,61 -> 61%
+27 - Filhos -> Acessório, Casado 			-> 07/13 = 0,53 -> 53%
+28 - Filhos -> Veículo, Acessório, Casado 	-> 06/13 = 0,46 -> 46%
+29 - Veículo, Acessório -> Casado 			-> 08/12 = 0,66 -> 66%
+30 - Veículo, Acessório -> Filhos 			-> 07/12 = 0,58 -> 58%
+31 - Veículo, Acessório -> Casado, Filhos 	-> 06/12 = 0,50 -> 50%
+32 - Veículo, Casado -> Acessório 			-> 08/17 = 0,47 -> 47%
+33 - Veículo, Casado -> Filhos 				-> 08/17 = 0,47 -> 47%
+34 - Veículo, Casado -> Acessório, Filhos 	-> 06/17 = 0,35 -> 35%
+35 - Veículo, Filhos -> Acessório 			-> 07/12 = 0,58 -> 58%
+36 - Veículo, Filhos -> Casado 				-> 08/12 = 0,66 -> 66%
+37 - Veículo, Filhos -> Acessório, Casado 	-> 06/12 = 0,50 -> 50%
+38 - Acessório, Casado -> Veículo 			-> 08/12 = 0,66 -> 66%
+39 - Acessório, Casado -> Filhos 			-> 07/12 = 0,58 -> 58%
+40 - Acessório, Casado -> Veículo, Filhos 	-> 06/12 = 0,50 -> 50%
+41 - Acessório, Filhos -> Veículo 			-> 07/09 = 0,77 -> 77%
+42 - Acessório, Filhos -> Casado 			-> 07/09 = 0,77 -> 77%
+43 - Acessório, Filhos -> Veículo, Casado 	-> 06/09 = 0,66 -> 66%
+44 - Casado, Filhos -> Veículo	 			-> 08/10 = 0,80 -> 80%
+45 - Casado, Filhos -> Acessório 			-> 07/10 = 0,70 -> 70%
+46 - Casado, Filhos -> Veículo, Acessório 	-> 06/10 = 0,60 -> 60%
+47 - Veículo, Acessório, Casado -> Filhos  	-> 06/08 = 0,75 -> 75%
+48 - Veículo, Acessório, Filhos -> Casado 	-> 06/07 = 0,85 -> 85%
+49 - Veículo, Casado, Filhos -> Acessório 	-> 06/08 = 0,75 -> 75%
+50 - Acessório, Casado, Filhos -> Veículo 	-> 06/07 = 0,85 -> 85%
+
+Etapa 3 Poda:
+
+Suportes Mínimos:
+
+01 - 24/30 = 0,8  -> 80% (+ de 50%)
+02 - 17/30 = 0,56 -> 56% (+ de 50%)
+03 - 21/30 = 0,7  -> 70% (+ de 50%)
+06 - 17/30 = 0,56 -> 56% (+ de 50%)
+
+Confiança Mínima:
+
+15 - Casado -> Veículo 						-> 17/21 = 0,80 -> 80%
+22 - Filhos -> Veículo 						-> 12/13 = 0,92 -> 92%
+44 - Casado, Filhos -> Veículo	 			-> 08/10 = 0,80 -> 80%
+48 - Veículo, Acessório, Filhos -> Casado 	-> 06/07 = 0,85 -> 85%
+50 - Acessório, Casado, Filhos -> Veículo 	-> 06/07 = 0,85 -> 85%

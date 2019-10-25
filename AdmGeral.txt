@@ -1,0 +1,103 @@
+Definindo Conjuntos:
+
+01- {Veículo Sport}
+02- {Acessórios}
+03- {Casado}
+04- {Têm 2 filhos}
+05- {Veículo Sport, Acessórios}
+06- {Veículo Sport, Casado}
+07- {Veículo Sport, 2 filhos}
+08- {Acessórios, Casado}
+09- {Acessórios, 2 Filhos}
+10- {Casado, 2 Filhos}
+11- {Acessórios, Casado, 2 filhos}
+12- {Veículo Sport, Acessórios, casado}
+13- {Veículo Sport, Acessórios, 2 filhos}
+14- {Veículo Sport, casado, 2 filhos}
+15- {Veículo Sport, Acessório, casado, com 2 filhos}
+
+Suporte:
+01- 24/30 = 0,8  -> 80%
+02- 17/30 = 0,56 -> 56%
+03- 21/30 = 0,7  -> 70%
+04- 13/30 = 0,43 -> 43%
+05- 12/30 = 0,4  -> 40%
+06- 17/30 = 0,56 -> 56%
+07- 12/30 = 0,4  -> 40%
+08- 12/30 = 0,4  -> 40%
+09- 09/30 = 0,3  -> 30%
+10- 10/30 = 0,33 -> 33%
+11- 07/30 = 0,23 -> 23%
+12- 08/30 = 0,25 -> 25%
+13- 07/30 = 0,23 -> 23%
+14- 08/30 = 0,25 -> 25%
+15- 06/30 = 0,2  -> 20%
+
+Regras:
+01 - Veículo -> Acessório
+02 - Veículo -> Casado
+03 - Veículo -> Filhos
+04 - Veículo -> Acessório, Casado
+05 - Veículo -> Acessório, Filhos
+06 - Veículo -> Casado, Filhos
+07 - Veículo -> Acessório, Casado, Filhos
+08 - Acessório -> Veículo
+09 - Acessório -> Casado
+10 - Acessório -> Filhos
+11 - Acessório -> Veículo, Casado
+12 - Acessório -> Veículo, Filhos
+13 - Acessório -> Casado, Filhos
+14 - Acessório -> Veículo, Casado, Filhos
+15 - Casado -> Veículo
+16 - Casado -> Acessório
+17 - Casado -> Filhos
+18 - Casado -> Veículo, Acessório
+19 - Casado -> Veículo, Filhos
+20 - Casado -> Acessório, Filhos
+21 - Casado -> Veículo, Acessório, Filhos
+22 - Filhos -> Veículo
+23 - Filhos -> Acessório
+24 - Filhos -> Casado
+25 - Filhos -> Veículo, Acessório
+26 - Filhos -> Veículo, Casado
+27 - Filhos -> Acessório, Casado
+28 - Filhos -> Veículo, Acessório, Casado
+29 - Veículo, Acessório -> Casado
+30 - Veículo, Acessório -> Filhos
+31 - Veículo, Acessório -> Casado, Filhos
+32 - Veículo, Casado -> Acessório
+33 - Veículo, Casado -> Filhos
+34 - Veículo, Casado -> Acessório, Filhos
+35 - Veículo, Filhos -> Acessório
+36 - Veículo, Filhos -> Casado
+37 - Veículo, Filhos -> Acessório, Casado
+38 - Acessório, Casado -> Veículo
+39 - Acessório, Casado -> Filhos
+40 - Acessório, Casado -> Veículo, Filhos
+41 - Acessório, Filhos -> Veículo
+42 - Acessório, Filhos -> Casado
+43 - Acessório, Filhos -> Veículo, Casado
+44 - Acessório, Veículo -> Casado
+45 - Acessório, Veículo -> Filhos
+46 - Acessório, Veículo -> Casado, Filhos
+47 - Casado, Veículo -> Acessório
+48 - Casado, Veículo -> Filhos
+49 - Casado, Veículo -> Acessório, Filhos
+50 - Casado, Acessório -> Veículo
+51 - Casado, Acessório -> Filhos
+52 - Casado, Acessório -> Veículo, Filhos
+53 - Casado, Filhos -> Veículo
+54 - Casado, Filhos -> Acessório
+55 - Casado, Filhos -> Veículo, Acessório
+56 - Filhos, Veículo -> Acessório
+57 - Filhos, Veículo -> Casado
+58 - Filhos, Veículo -> Acessório, Casado
+59 - Filhos, Acessório -> Veículo
+60 - Filhos, Acessório -> Casado
+61 - Filhos, Acessório -> Veículo, Casado
+62 - Filhos, Casado -> Veículo
+63 - Filhos, Casado -> Acessório
+64 - Filhos, Casado -> Veículo, Acessório
+65 - Veículo, Acessório, Casado -> Filhos
+66 - Veículo, Acessório, Filhos -> Casado
+67 - Veículo, Casado, Filhos -> Acessório
